@@ -454,6 +454,7 @@ http://www.tooplate.com/view/2098-health
   }
   .feature{
     text-align: center;
+    align-items: center;
     font-size: 5rem;
     padding-bottom: 40px;
     color:white;
@@ -583,11 +584,11 @@ http://www.tooplate.com/view/2098-health
   .news-image img {
     width: 100%;
   }
-  .height1{
+  /* .height1{
     height: 490px;
   }
   .height3{
-    height: 490px;
+    height: 490px; */
   }
   .news-detail-thumb ul {
     margin: 32px 12px 22px 0px;
@@ -719,13 +720,16 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 .copyright{
   text-align: center;
-  padding-left: 500px;
-  
+  padding-left: 200px;
+  position: relative;
+  float: left;
 }
   footer {
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-color: white;
+    position: relative;
+   
   }
  
 
@@ -744,7 +748,7 @@ http://www.tooplate.com/view/2098-health
   .copyright-text p,
   .footer-link a {
     color: black;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
   }
   footer p{
@@ -755,6 +759,7 @@ http://www.tooplate.com/view/2098-health
     position: relative;
     bottom: 4em;
     display: block;
+    float:right;
   }
 
   .angle-up-btn a {
