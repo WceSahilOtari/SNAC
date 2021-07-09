@@ -720,18 +720,18 @@ http://www.tooplate.com/view/2098-health
 .copyright{
   text-align: center;
   padding-left: 500px;
-
+  
 }
   footer {
     padding-top: 30px;
     padding-bottom: 40px;
-    background-color: gray;
+    background-color: white;
   }
  
 
 
 .text{
-  color: white;
+  color: black;
 
 }
   .stories-info span {
@@ -743,7 +743,7 @@ http://www.tooplate.com/view/2098-health
 
   .copyright-text p,
   .footer-link a {
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: 500;
   }
