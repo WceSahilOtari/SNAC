@@ -1007,13 +1007,21 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+#team {
+  background-color: gray;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
 .team {
   background: #fff;
   padding: 60px 0;
+
 }
 .teamwork{
   font-size: 1.5rem;
+  padding-top: 20px;
   padding-bottom: 10px;
+  color: black;
 }
 .team .member {
   text-align: center;
@@ -1022,7 +1030,10 @@ section {
   position: relative;
   overflow: hidden;
 }
-
+.team{
+  padding-top: 20px;
+ padding-left: 20px;
+}
 .team .member .member-info {
   opacity: 0;
   position: absolute;
