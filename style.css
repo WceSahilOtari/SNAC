@@ -1208,12 +1208,17 @@ section {
 .faq {
   padding: 60px 0;
 }
-
+.faq .section-title h2{
+  color: black;
+  font-size: 3rem;
+}
 .faq .faq-list {
   padding: 0;
   list-style: none;
 }
-
+.faq .faq-list li div{
+  font-size: 1.3rem;
+}
 .faq .faq-list li {
   border-bottom: 1px solid #eceefe;
   margin-bottom: 20px;
@@ -1224,12 +1229,12 @@ section {
   display: block;
   position: relative;
   font-family: #3b4ef8;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #0a22f6;
+  color:black;
   transition: 0.3s;
 }
 
