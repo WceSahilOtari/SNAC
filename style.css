@@ -1150,7 +1150,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color:black;
+  color:white;
   transition: 0.3s;
 }
 
@@ -1171,7 +1171,7 @@ section {
 }
 
 .faq .faq-list .collapsed {
-  color: black;
+  color: whitesmoke;
 }
 
 .faq .faq-list .collapsed:hover {
@@ -1196,6 +1196,7 @@ section {
 }
 .boxy{
   margin-top: 100px;
+  padding-right: 50px;
 }
 .contact .info-box {
   color: #2d405f;
@@ -1203,7 +1204,8 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   background: whitesmoke;
-  margin-left: 150px;
+  margin-left: 100px;
+  
   margin-top: 100px;
 }
 .contact-title{
