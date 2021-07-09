@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #f5d4b1;
+  
 }
 
 a {
@@ -1366,14 +1367,21 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer{
+  background-color: white;
+  width: 100%;
+}
 #footer {
   color: #444444;
   font-size: 14px;
   background: #f1f3ff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 #footer{
-  background-color: gray;
+  background-color: white;
+  padding-right: 0%;
+  padding-left: 0%;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
