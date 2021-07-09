@@ -686,13 +686,19 @@ section {
   background-color: gray;
 }
 .services {
-  background: #2d405f;
+  background: grey;
   padding-bottom: 80px;
 }
 
 .services .section-title h2, .services .section-title p {
   color: #fff;
+  font-size: 3rem;
+} 
+.services .section-title p{
+  color: #fff;
+  font-size: 1.5rem
 }
+
 
 .services .section-title h2::after {
   background: rgba(255, 255, 255, 0.2);
@@ -729,11 +735,12 @@ section {
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .services .title a {
-  color: #2d405f;
+  color: black;
+  font-size: 1.5rem;
   transition: 0.3s;
 }
 
@@ -742,7 +749,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 1.1rem;
   line-height: 28px;
   margin-bottom: 0;
 }
