@@ -89,10 +89,10 @@ display:none;
   border-radius: 0;
 }
 .btn.btn-primary {
-  background: #c2185b;
+  background: grey;
   color: #fff;
   padding: 10px 25px;
-  font-size: 14px;
+  font-size: 20px;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
