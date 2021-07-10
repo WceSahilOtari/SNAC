@@ -864,6 +864,7 @@ margin: 15px 0;
 }
 #pricing {
   padding: 140px 0 70px;
+  background: grey;
 }
 #pricing ul.pricing {
   list-style: none;
@@ -880,6 +881,7 @@ margin: 15px 0;
 }
 #pricing ul.pricing li.plan-header {
   background: #f3f3f3;
+  
   margin: -15px -15px 10px;
   padding: 15px 15px 30px;
   border-bottom: 2px solid #c2185b;
