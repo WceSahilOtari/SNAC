@@ -932,6 +932,9 @@ margin: 15px 0;
 #contact-us h2 {
 }
 /*Contact*/
+#contact{
+  background: grey;
+}
  .contact-info{
  padding:60px 0;
  }
