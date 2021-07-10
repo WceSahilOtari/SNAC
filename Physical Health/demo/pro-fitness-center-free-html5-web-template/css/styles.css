@@ -288,6 +288,7 @@ color: #FFFFFF;
 #hero-banner{
   background: #FFFFFF url('../images/banner/bg1.jpg') no-repeat 100% bottom;
   margin-top: -4px;
+  background-color: black;
   }
 #hero-banner h2 {
   margin-top: 44%;
@@ -366,6 +367,7 @@ color: #FFFFFF;
 #mainservice {
   padding: 120px 0 80px; 
   border-top: 1px dashed #ffffff;
+  background-color: white;
 }
 .media.service-box {
   padding: 20px 15px 10px;
