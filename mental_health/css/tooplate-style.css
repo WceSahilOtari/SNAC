@@ -407,7 +407,9 @@ http://www.tooplate.com/view/2098-health
       HOME              
   -----------------------------------------*/
 
-
+.feature{
+  margin-right: 5px;
+}
   #home{
     background-color: gray;
     padding-bottom: 100px;
