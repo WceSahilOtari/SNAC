@@ -286,7 +286,7 @@ color: #FFFFFF;
   color: #000;
 }
 #hero-banner{
-  background: #FFFFFF url('../images/banner/bg1.jpg') no-repeat 100% bottom;
+  background: #f5d4b1 url('../images/prana_logo.jpg') no-repeat 100% bottom;
   margin-top: -4px;
   }
 #hero-banner h2 {
@@ -366,6 +366,7 @@ color: #FFFFFF;
 #mainservice {
   padding: 120px 0 80px; 
   border-top: 1px dashed #ffffff;
+  background-color: grey;
 }
 .media.service-box {
   padding: 20px 15px 10px;
