@@ -53,7 +53,7 @@ hr {
   background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
 }
 .section-header {
-  margin-bottom: 50px;
+  margin-bottom: 50px; ;
 }
 .section-header .section-title {
   font-size: 44px;
@@ -96,7 +96,8 @@ display:none;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #bd1256;
+  background: grey;
+  font-size: 2.5rem;
 }
 .column-title {
   margin-top: 0;
@@ -118,10 +119,14 @@ display:none;
 	text-align: center;
 	border: 3px solid #fff;
 }
+.thumbnail p{
+  font-size: 2rem;
+  color: grey;
+}
 .thumbnail h3{
-	font-size: 23px;
+	font-size: 2.5rem;
 	text-transform: uppercase;
-	color: #c2185b;
+	color: black;
 }
 .thumbnail h4{
 	font-size: 14px;
@@ -290,7 +295,8 @@ color: #FFFFFF;
 }
 #hero-banner{
   background: #f5d4b1 url('../images/Prana.png') no-repeat 100% bottom;
-  margin-top: -4px;
+  margin-top: -5rem;
+  margin-right: 40rem;
   background-color:#f5d4b1;
   }
 #hero-banner h2 {
@@ -367,6 +373,7 @@ color: #FFFFFF;
   padding: 120px 0 80px;
   border-top: 1px dashed #c2185b;
 }
+
 #mainservice {
   padding: 120px 0 80px; 
   border-top: 1px dashed #ffffff;
