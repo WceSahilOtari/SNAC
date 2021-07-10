@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #f5d4b1;
+  
 }
 
 a {
@@ -39,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3b4ef8;
+  background: grey;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -615,6 +616,7 @@ section {
 }
 .features .content ul {
   list-style: none;
+  font-size: 1.5rem;
   padding: 0;
 }
 
@@ -681,14 +683,23 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services{
+  background-color: gray;
+}
 .services {
-  background: #2d405f;
+  background: grey;
   padding-bottom: 80px;
 }
 
 .services .section-title h2, .services .section-title p {
   color: #fff;
+  font-size: 3rem;
+} 
+.services .section-title p{
+  color: #fff;
+  font-size: 1.5rem
 }
+
 
 .services .section-title h2::after {
   background: rgba(255, 255, 255, 0.2);
@@ -725,11 +736,12 @@ section {
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .services .title a {
-  color: #2d405f;
+  color: black;
+  font-size: 1.5rem;
   transition: 0.3s;
 }
 
@@ -738,7 +750,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 1.1rem;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -933,6 +945,9 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+#testimonials{
+  background-color: gray;
+}
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px 30px 0 30px;
@@ -942,7 +957,16 @@ section {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   background: #fff;
 }
-
+.testimonials .section-title h2{
+  color: #f5d4b1;
+  font-size: 3rem;
+}
+.testimonials .section-title p{
+  font-size: 1.8rem;
+}
+.testimonials .testimonial-item p {
+  font-size: 1.5rem;
+}
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
@@ -951,7 +975,7 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
@@ -1006,11 +1030,22 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+#team {
+  background-color: #f5d4b1;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
 .team {
   background: #fff;
   padding: 60px 0;
-}
 
+}
+.teamwork{
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: black;
+}
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -1018,7 +1053,10 @@ section {
   position: relative;
   overflow: hidden;
 }
-
+.team{
+  padding-top: 20px;
+ padding-left: 20px;
+}
 .team .member .member-info {
   opacity: 0;
   position: absolute;
@@ -1093,126 +1131,27 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #2d405f;
-}
-
-.pricing .box h4 {
-  font-size: 42px;
-  color: #3b4ef8;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  color: #2d405f;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #3b4ef8;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
-
-.pricing .box .btn-buy {
-  background: #eceefe;
-  color: #3b4ef8;
-  display: inline-block;
-  padding: 10px 40px 12px 40px;
-  border-radius: 5px;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Krub", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .box .btn-buy:hover {
-  background: #3b4ef8;
-  color: #fff;
-}
-
-.pricing .featured {
-  background: #466393;
-  box-shadow: none;
-}
-
-.pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na {
-  color: #fff;
-}
-
-.pricing .featured .btn-buy {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-}
-
-.pricing .featured .btn-buy:hover {
-  background: #fff;
-  color: #4e6fa4;
-}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+#faq{
+  background-color: gray;
+}
 .faq {
   padding: 60px 0;
 }
-
+.faq .section-title h2{
+  color: white;
+  font-size: 2.3rem;
+}
 .faq .faq-list {
   padding: 0;
   list-style: none;
 }
-
+.faq .faq-list li div{
+  font-size: 1.3rem;
+}
 .faq .faq-list li {
   border-bottom: 1px solid #eceefe;
   margin-bottom: 20px;
@@ -1223,12 +1162,12 @@ section {
   display: block;
   position: relative;
   font-family: #3b4ef8;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #0a22f6;
+  color:white;
   transition: 0.3s;
 }
 
@@ -1249,7 +1188,7 @@ section {
 }
 
 .faq .faq-list .collapsed {
-  color: black;
+  color: whitesmoke;
 }
 
 .faq .faq-list .collapsed:hover {
@@ -1269,14 +1208,26 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact{
+  background-color: #f5d4b1;
+}
+.boxy{
+  margin-top: 100px;
+  padding-right: 50px;
+}
 .contact .info-box {
   color: #2d405f;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
-  background: #fff;
+  background: whitesmoke;
+  margin-left: 100px;
+  
+  margin-top: 100px;
 }
-
+.contact-title{
+  font-size: 1.5rem;
+}
 .contact .info-box i {
   font-size: 32px;
   color: #3b4ef8;
@@ -1300,7 +1251,7 @@ section {
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
-  background: #fff;
+  background: whitesmoke;
 }
 
 .contact .php-email-form .error-message {
@@ -1425,13 +1376,22 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer{
+  background-color: white;
+  width: 100%;
+}
 #footer {
   color: #444444;
   font-size: 14px;
   background: #f1f3ff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
-
+#footer{
+  background-color: white;
+  padding-right: 0%;
+  padding-left: 0%;
+}
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
