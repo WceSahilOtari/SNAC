@@ -8,7 +8,7 @@ Author URL: http://webthemez.com
 **************************/
 body {
   padding-top: 100px;
-  background: #292929;
+  background: #f5d4b1;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -288,7 +288,7 @@ color: #FFFFFF;
 #hero-banner{
   background: #f5d4b1 url('../images/prana_logo.jpg') no-repeat 100% bottom;
   margin-top: -4px;
-  background-color: #f5d4b1;
+  background-color:#f5d4b1;
   }
 #hero-banner h2 {
   margin-top: 44%;
@@ -932,6 +932,9 @@ margin: 15px 0;
 #contact-us h2 {
 }
 /*Contact*/
+#contact{
+  background: grey;
+}
  .contact-info{
  padding:60px 0;
  }
@@ -959,11 +962,12 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: rgba(255, 255, 255, 0.6);
-  background: #252525;
+  background: white;
   font-size: 13px;
 }
 #footer a {
-  color: #fff;
+  color: black;
+  font-size: 2rem;
 }
 #footer a:hover {
   color: #FFA98E;
