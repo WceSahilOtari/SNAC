@@ -314,6 +314,7 @@ const encryptAndSend = (username, projectID, field1='', field2='', field3='', fi
 
   return encURL
 }
+
 function sendMessage()
 {
   let name = document.getElementById("name").value;
@@ -336,6 +337,7 @@ function sendMessage()
   {
       return
   }
+  console.log("Hey")
   var a = document.createElement('a'); 
   a.id = "sendMeMessage"
   a.href = encryptAndSend("Chetana", 35, name, email,subject, message); 
