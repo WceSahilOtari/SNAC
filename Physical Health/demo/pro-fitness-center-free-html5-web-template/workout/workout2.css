@@ -44,12 +44,12 @@
   .solution_cards_box .solution_card:hover .solu_description p {
     color: #fff;
   }
-  .heading{
+  /* .heading{
       align-items: center;
       align-content: center;
       margin-bottom: 50px;
       margin-left: 300px;
-  }
+  } */
   .solution_cards_box .solution_card:before {
     content: "";
     position: absolute;
