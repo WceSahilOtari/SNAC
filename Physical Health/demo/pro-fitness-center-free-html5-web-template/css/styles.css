@@ -270,7 +270,10 @@ color: #FFFFFF;
   height: 600px;
   color: #4C4C4C;
 }
-
+.hovering:hover{
+  color: black;
+  font-size: 3rem;
+}
 #hero-banner.item {
   height: 558px;
   background-repeat: no-repeat;
