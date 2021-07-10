@@ -276,7 +276,7 @@ color: #FFFFFF;
   color: #4C4C4C;
 }
 .hovering:hover{
-  color: black;
+  color: gray;
   font-size: 3rem;
 }
 #hero-banner.item {
