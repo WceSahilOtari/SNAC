@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prana">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PRANA">
+        <activity android:name=".meditation"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".chat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".task" />
+        <activity android:name=".to_do_list"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bmi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".exercises_demo" />
+        <activity android:name=".exercises"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".physical_health"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".playList" />
+        <activity android:name=".music_categories"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".motivational_quotes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".logo_splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mental_health"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
