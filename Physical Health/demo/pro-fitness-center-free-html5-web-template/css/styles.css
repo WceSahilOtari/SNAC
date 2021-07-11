@@ -296,7 +296,7 @@ color: #FFFFFF;
 #hero-banner{
   background: #f5d4b1 url('../images/Prana.png') no-repeat 100% bottom;
   margin-top: -5rem;
-  margin-right: 40rem;
+  margin-right: 5rem;
   background-color:#f5d4b1;
   }
 #hero-banner h2 {
@@ -686,7 +686,7 @@ section#about:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #212121;
+    background: grey;
     -moz-transform: skewY(-3deg);
     -o-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
