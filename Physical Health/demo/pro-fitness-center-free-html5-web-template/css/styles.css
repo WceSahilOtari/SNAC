@@ -183,10 +183,10 @@ text-transform: uppercase;
 /*************************
 *******Header******
 **************************/
-#main-nav.navbar-default {background: #FFFFFF;}
+#main-nav.navbar-default {background: #f5d4b1;}
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
 background: transparent;
-color: #FFFFFF;
+color: black;
 }
 .navbar.navbar-default {
   border: 0;
@@ -196,22 +196,22 @@ color: #FFFFFF;
 }
 .navbar.navbar-default .navbar-toggle {
   margin-top: 32px;
-  border-color: #fff;
+  border-color: black;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
   padding: 22px 15px 16px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #FFFFFF;
+color: black;
  
 background: transparent;
 }
 .navbar-default .navbar-nav>li>a{
-color: #FFFFFF;
+color: black;
 }
  
-#main-nav.navbar-default {background: #c1175a;}
+#main-nav.navbar-default {background: #f5d4b1;}
 @media only screen and (min-width: 768px) {
   #main-nav.navbar-default {
     background: white;
@@ -253,7 +253,7 @@ color: #FFFFFF;
   }
   #main-nav.navbar-default .dropdown-menu > li > a { 
     padding: 15px 0;
-    color:#A8A8A8; 
+    color:black; 
   }
   #main-nav.navbar-default .dropdown-menu > li:first-child > a {
     border-top: 0;
