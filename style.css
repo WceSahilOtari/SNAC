@@ -8,6 +8,11 @@ body {
   background-color: #f5d4b1;
   
 }
+iframe{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
 .topic{
   color: white;
 }
