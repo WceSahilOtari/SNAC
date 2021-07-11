@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
 }
 .navbar .getstarted {
-  background: #e2e5fe;
+  background: white;
   padding: 9px 25px;
   margin-left: 30px;
   border-radius: 5px;
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #2bee9d;
+  background: grey;
 }
 
 .navbar .dropdown ul {
