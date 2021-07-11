@@ -35,7 +35,9 @@ input:focus {
     border: 2px solid rgba(0,0,0,.4);
     background-color: rgb(60,60,60);
 }
-
+.results{
+    font-size: 3rem;
+}
 form {
     background-color: #fff;
     padding: 20px;
