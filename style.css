@@ -14,7 +14,9 @@ body {
   background-color: #f5d4b1;
   
 }
-
+.button{
+  font-size: 2rem;
+}
 a {
   color: #0d0d0e;
   text-decoration: none;
