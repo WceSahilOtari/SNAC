@@ -7,5 +7,5 @@ WCE_ACM hackathon. Team SNAC project on Healthcare Solutions.
           i) In this repository, go to main branch
           ii) Now go to Android app/PRANA2 
           iii) Now click on app , then release
-          iv) Now you can click on app-release.apk and download an apk file
+          iv) Now you can click on PRANA.apk and download an apk file
           v) Install the app. Now you can use it.
